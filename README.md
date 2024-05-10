@@ -114,8 +114,3 @@ form
   - Component that handles patient feedback form.
 
 
-
-   ```bash
-   firebase deploy
-   ```
-
