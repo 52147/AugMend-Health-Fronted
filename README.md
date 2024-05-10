@@ -7,7 +7,6 @@ This is the frontend component for the Patient Feedback Form application. The pu
 - **React.js:** For building the user interface.
 - **Material-UI:** For modern UI components.
 - **Axios:** For making HTTP requests.
-- **Firebase Hosting:** For deploying the frontend.
 - **JavaScript (ES6+):** Main programming language.
 
 ## Prerequisites
@@ -22,13 +21,13 @@ Before you begin, ensure you have met the following requirements:
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your-username/patient-feedback-form-frontend.git
+   git clone https://github.com/your-username/AugMend-Health-Fronted.git
    ```
 
 2. **Navigate to the Project Directory:**
 
    ```bash
-   cd patient-feedback-form-frontend
+   cd AugMend-Health-Fronted
    ```
 
 3. **Install Dependencies:**
@@ -66,29 +65,14 @@ Here's an overview of the project's directory structure:
 ```
 form
 ├── .eslintrc.cjs          # ESLint configuration
-├── .firebaserc            # Firebase project configuration
 ├── .gitignore             # Git ignore rules
-├── firebase.json          # Firebase hosting configuration
 ├── index.html             # Main HTML file
 ├── package-lock.json      # Auto-generated dependency lock file
 ├── package.json           # Project dependencies
 ├── README.md              # Project documentation
 ├── vite.config.js         # Vite configuration file
 │
-├── 📁.firebase            # Firebase deployment files
-│   └── 📁augmend-4e43b
-│       └── 📁hosting
-│           └── 📁assets
-│               ├── index-DiwrgTda.css
-│               ├── index-vjQE5Jz2.js
-│           ├── index.html
-│           ├── vite.svg
-│       └── hosting.LmZpcmViYXNlL2F1Z21lbmQtNGU0M2IvaG9zdGluZw.cache
 │
-├── 📁.github              # GitHub CI/CD workflows
-│   └── 📁workflows
-│       ├── firebase-hosting-merge.yml
-│       └── firebase-hosting-pull-request.yml
 │
 ├── 📁public               # Public assets
 │   └── vite.svg
@@ -126,32 +110,10 @@ form
 - **`App.css`**:
   - Main CSS file for the application.
 
-- **`firebase.js`**:
-  - Firebase SDK configuration file.
-
 - **`FeedbackForm.jsx`**:
   - Component that handles patient feedback form.
 
-- **`.firebaserc`**:
-  - Firebase project configuration.
 
-- **`firebase.json`**:
-  - Firebase hosting configuration.
-
-- **`.github/workflows`**:
-  - Contains GitHub Actions workflows for Firebase hosting.
-
-## Deployment
-
-To deploy this project to Firebase Hosting:
-
-1. **Login to Firebase CLI:**
-
-   ```bash
-   firebase login
-   ```
-
-2. **Deploy the Application:**
 
    ```bash
    firebase deploy
