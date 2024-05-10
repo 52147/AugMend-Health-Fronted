@@ -122,23 +122,4 @@ If you want to contribute to this project:
 4. Push to your branch: `git push origin feature/your-feature-name`.
 5. Submit a pull request.
 
-## License
 
-This project is licensed under the MIT License.
-
-```
-
-### How to Use
-
-1. **Place the README File:**
-   - Create a `README.md` file in your project's root directory.
-   - Copy the content above and adjust it to your project's requirements.
-
-2. **Update the Content:**
-   - Make sure the `Project Structure`, `Key Features`, and other sections match your project's specifics.
-
-3. **Customize Further:**
-   - Add badges (e.g., build status, coverage).
-   - Add GIFs or screenshots demonstrating the application in action.
-
-Let me know if you need further customization or more detailed content!
