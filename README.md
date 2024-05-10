@@ -1,8 +1,3 @@
-Sure, you can provide a `README.md` file in your frontend project to guide developers on how to set up and use your application. Here's a sample template that you can adapt based on your specific project details.
-
-### Example `README.md`
-
-
 # Patient Feedback Form - Frontend
 
 This is the frontend component for the Patient Feedback Form application. The purpose of this application is to collect patient feedback, ensuring data validation both on the client and server sides.
