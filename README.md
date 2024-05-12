@@ -49,6 +49,13 @@ Before you begin, ensure you have met the following requirements:
 2. **Access the Application:**
 
    Visit `http://localhost:3000` in your web browser.
+### Logging In
 
+To access the application, use the following credentials:
+
+- **Username:** debra4117@gmail.com
+- **Password:** admin123
+
+Ensure you are logged in to view and submit patient feedback. 
 
 
