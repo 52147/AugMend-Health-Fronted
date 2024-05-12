@@ -50,6 +50,7 @@ Before you begin, ensure you have met the following requirements:
 
    Visit `http://localhost:3000` in your web browser.
 ## Logging In
+### Using Email and Password
 
 To access the application, use the following credentials:
 
@@ -58,4 +59,6 @@ To access the application, use the following credentials:
 
 Ensure you are logged in to view and submit patient feedback. 
 
+### Using Google Sign-In
 
+- Click on the **Sign in with Google** button to log in using your Google account.
