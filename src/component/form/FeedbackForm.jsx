@@ -221,7 +221,7 @@ export const FeedbackForm = () => {
               />
             </Grid>
           )}
-           <Grid item xs={12}>
+          <Grid item xs={12}>
             <FormControl component="fieldset">
               <FormLabel component="legend">
                 Have you ever seen a therapist for mental health issues?
@@ -231,7 +231,7 @@ export const FeedbackForm = () => {
                 value={form.seenTherapist}
                 onChange={handleChange}
                 row
-                style={{ display: 'flex', justifyContent: 'center' }}
+                style={{ display: "flex", justifyContent: "center" }}
               >
                 <FormControlLabel value="Yes" control={<Radio />} label="Yes" />
                 <FormControlLabel value="No" control={<Radio />} label="No" />
@@ -248,7 +248,7 @@ export const FeedbackForm = () => {
                 value={form.takingMedications}
                 onChange={handleChange}
                 row
-                style={{ display: 'flex', justifyContent: 'center' }}
+                style={{ display: "flex", justifyContent: "center" }}
               >
                 <FormControlLabel value="Yes" control={<Radio />} label="Yes" />
                 <FormControlLabel value="No" control={<Radio />} label="No" />
