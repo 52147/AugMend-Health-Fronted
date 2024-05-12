@@ -49,7 +49,7 @@ Before you begin, ensure you have met the following requirements:
 2. **Access the Application:**
 
    Visit `http://localhost:3000` in your web browser.
-### Logging In
+## Logging In
 
 To access the application, use the following credentials:
 
